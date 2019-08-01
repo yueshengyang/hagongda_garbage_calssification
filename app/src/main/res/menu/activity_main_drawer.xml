@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/address_setting"
+            android:icon="@drawable/address_setting"
+            android:title="@string/address_setting"
+            android:scaleType="fitCenter"
+            android:background="#00000000"
+            />
+        <item
+            android:id="@+id/recharge"
+            android:icon="@drawable/recharge"
+            android:title="@string/recharge"
+            android:scaleType="fitCenter"
+            android:background="#00000000"/>
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/setting"
+            android:title="@string/setting"
+            android:scaleType="fitCenter"
+            android:background="#00000000"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/about_us"
+                android:icon="@drawable/about_us"
+                android:title="@string/about_us"
+                android:scaleType="fitCenter"
+                android:background="#00000000"/>
+            <item
+                android:id="@+id/suggestion"
+                android:icon="@drawable/suggestion"
+                android:title="@string/suggestion"
+                android:scaleType="fitCenter"
+                android:background="#00000000"/>
+        </menu>
+    </item>
+
+</menu>

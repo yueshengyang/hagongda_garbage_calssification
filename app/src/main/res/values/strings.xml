@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">扔了么</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="account_name">account name</string>
+    <string name="account_num">account number</string>
+    <string name="about_us">关于我们</string>
+    <string name="recharge">充值</string>
+    <string name="address_setting">地址</string>
+    <string name="suggestion">建议</string>
+    <string name="setting">设置</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="introduction">第一小组\n\n小组成员：\n吴玉菡、池嘉洋\n黄友勤、陈志豪\n丁明泽、任庆吉
+        \n安宏展、陈嘉浩\n</string>
+    <string name="title_activity_settings">设置</string>
+    <string name="new_message_notification">新消息提醒</string>
+    <string name="notification">消息</string>
+    <string name="general">通用</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_title_social_recommendations">启用推荐</string>
+    <string name="pref_description_social_recommendations">将我们的APP推荐给好友
+    </string>
+
+    <string name="pref_title_display_name">显示名字</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">将好友添加到通讯录</string>
+    <string-array name="pref_example_list_titles">
+        <item>总是</item>
+        <item>如有可能</item>
+        <item>从不</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_title_ringtone">铃声</string>
+    <string name="pref_ringtone_silent">静音</string>
+
+    <string name="pref_title_vibrate">振动</string>
+    <string name="title_activity_login">登录</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">邮箱</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录或者注册</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="error_invalid_email">邮箱不合法</string>
+    <string name="error_invalid_password">密码太短</string>
+    <string name="error_incorrect_password">密码不正确</string>
+    <string name="error_field_required">此为必填项</string>
+    <string name="permission_rationale">"邮箱需要联系人权限."
+    </string>
+    <string name="fuck">确认</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

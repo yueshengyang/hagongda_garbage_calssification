@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="82dp"
+        android:layout_height="617dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/blank_left_0"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:autoSizeTextType="uniform"
+            android:text="姓名" />
+
+        <TextView
+            android:id="@+id/blank_left_1"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:autoSizeTextType="uniform"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:autoSizeTextType="uniform"
+            android:text="时间" />e
+        <TextView
+            android:id="@+id/blank_left_2"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:autoSizeTextType="uniform"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:autoSizeTextType="uniform"
+            android:text="地址" />
+
+        <TextView
+            android:id="@+id/blank_left_3"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:autoSizeTextType="uniform"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:autoSizeTextType="uniform"
+            android:text="电话" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="255dp"
+        android:layout_height="714dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout1"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/blank_right_0"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:autoSizeTextType="uniform"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/name_input"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:autoSizeTextType="uniform"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="战德臣" />
+
+        <TextView
+            android:id="@+id/blank_right_1"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:autoSizeTextType="uniform"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/time_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="time" />
+
+        <TextView
+            android:id="@+id/blank_right_2"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:autoSizeTextType="uniform"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/address_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPostalAddress"
+            android:text="哈尔滨工业大学新技术楼502室" />
+
+        <TextView
+            android:id="@+id/blank_right_3"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/phone_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:text=" 045186412664" />
+
+        <TextView
+            android:id="@+id/blank_right_4"
+            android:layout_width="match_parent"
+            android:layout_height="187dp"
+            android:autoSizeTextType="uniform"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fuck" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
